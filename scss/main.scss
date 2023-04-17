@@ -1,0 +1,158 @@
+main {
+
+
+    div {
+        ul {
+            li {
+                img {
+                    width: 4rem;
+                }
+            }
+        }
+    }
+}
+
+div.articles {
+    div.sec1 {
+        section.art {
+            max-width: 40rem;
+            position: relative;
+            top: -40px;
+            background-color: white;
+
+            h2 {
+
+
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 3rem;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+
+
+div.sec2,
+div.sec3 {
+    section.art {
+        max-width: 20rem;
+        position: relative;
+        top: -10px;
+        background-color: white;
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+    }
+}
+
+article.acces-rapide {
+    ul {
+        li {
+            h2 {
+                font-weight: 600;
+                font-size: 1.3rem;
+            }
+
+            input.li-acces {
+                font-size: 0.7rem;
+                padding: 0.8rem;
+                font-weight: 600;
+                border: none;
+
+            }
+            input.voir-carte{
+                color: red;
+                font-size: 0.7rem;
+                font-weight: 500;
+                letter-spacing: 2px;
+                border: none;
+                padding: 0.5rem 0.8rem;
+                background-color: white;
+            }
+            input.voir-carte:hover {
+                color: white;
+                background-color: red;
+            }
+
+            text-align: center;
+            margin: 1rem 0rem;
+
+        }
+    }
+
+}
+
+
+
+.img-passeport,
+.img-travailler {
+    width: 3rem;
+}
+
+li.trait2 {
+    background-color: rgb(207, 207, 207);
+    height: 0.02rem;
+    width: 14rem;
+}
+
+li.btn {
+    input.btn-header {
+        padding: .8rem 2rem !important;
+        font-size: 1rem !important;
+    }
+
+    input.btn-header:hover {
+        background-color: black !important;
+        color: white;
+
+    }
+}
+
+.sec1 {
+    max-width: 70rem;
+    box-sizing: border-box;
+
+}
+
+
+.img1 {
+    box-sizing: border-box;
+    max-width:70rem;
+}
+
+.sec2,
+.sec3 {
+    max-width: 30rem;
+    box-sizing: border-box;
+}
+
+.img2,
+.img3 {
+    max-width: 30rem;
+    box-sizing: border-box;
+}
+
+.savoir {
+    color: red;
+    background-color: white;
+    border: none;
+}
+
+.savoir:hover {
+    color: white;
+    background-color: red;
+}
+
+@media screen {
+    
+}

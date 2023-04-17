@@ -1,0 +1,45 @@
+header {
+    background-color: white;
+
+    nav {
+        margin: 0 2rem;
+
+        ul {
+            align-items: center;
+            padding: 0%;
+
+            li.logo {
+                a.h1 {
+                    svg {
+                        width: 10rem;
+                        height: 6rem;
+                    }
+                }
+            }
+
+            li {
+                a {
+                    font-size: 1.3rem;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: black;
+                }
+
+                a.a6 {
+                    color: #354bcf;
+
+                }
+            }
+            .mon-paris {
+                margin-left: auto;
+            }
+
+            div.trait1 {
+                background-color: rgb(207, 207, 207);
+                height: 0.1rem;
+                width: 100%;
+            }
+        }
+
+    }
+}
